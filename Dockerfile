@@ -1,5 +1,5 @@
 # Start with the official Fedora base image
-FROM fedora:latest
+FROM fedora:41
 
 # Install systemd and remove unnecessary services
 RUN echo 'max_parallel_downloads=20' | tee -a /etc/dnf/dnf.conf && \
