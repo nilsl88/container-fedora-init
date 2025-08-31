@@ -34,7 +34,7 @@ jobs:
           context: .
           push: true
           tags: | 
-            ${{ secrets.DOCKER_USERNAME }}/fedora:41-init
-            ${{ secrets.DOCKER_USERNAME }}/fedora:41
+            ${{ secrets.DOCKER_USERNAME }}/fedora:42-init
+            ${{ secrets.DOCKER_USERNAME }}/fedora:42
           platforms: linux/amd64,linux/arm64
 
